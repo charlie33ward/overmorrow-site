@@ -7,6 +7,7 @@
 
     "serve": "npx eleventy --serve",
     "css:watch": "npx tailwindcss -i ./tailwind.css -o ./_site/css/styles.css --watch",
+    "prod": "npx tailwindcss -i ./tailwind.css -o ./_site/css/styles.css",
     "dev": "npm-run-all --parallel serve css:watch"
   },
   "keywords": [],
